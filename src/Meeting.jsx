@@ -11,7 +11,7 @@ const Meeting = () => {
     const initMeeting = () => {
       const userId = `UserId-${Math.round(Math.random() * 100000)}`;
       const username = `Username-${Math.round(Math.random() * 100000)}`;
-      const appID = Number(import.meta.env.VITE_ZEGOCLOUD_APP_ID); 
+      const appID =759448289; 
       const serverSecret = import.meta.env.VITE_ZEGOCLOUD_SECRET_KEY;
       const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
         appID,
